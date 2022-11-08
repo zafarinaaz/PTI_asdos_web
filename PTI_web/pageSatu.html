@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap" rel="stylesheet">
+    <title>Page Satu</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            font-family: 'Barlow Semi Condensed', sans-serif;
+            list-style: none;
+        }
+        body{
+            background-image: url(PTI_web/Free\ Vector\ _\ Creative\ classic\ blue\ background.jpg);
+            background-position: 1fr;
+            background-blend-mode: color;
+            /* background-image: url(PTI_web//download\ \(1\).jpg); */
+            background-color: rgb(214, 178, 16);
+            background-blend-mode:difference, lighten;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: hsl(210, 46%, 95%);
+            height: 100vh;
+            font-size: 13px;
+            display: flex;
+            align-content: center;
+            justify-items: center;
+            flex-direction: column;
+        }
+        .container{
+            background-color: rgb(176, 199, 248);
+            /* border: 2px solid rgb(85, 85, 76); */
+            width: 50rem;
+            height: 30rem;
+            margin:  auto ;
+            border-radius: 2.5rem;
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            overflow: hidden;
+        }
+        .col{
+            /* border: 2px solid yellow; */
+            display: grid;
+            grid-template-columns:  1fr 1fr;
+            background-color:rgb(236, 137, 90);
+            height: 10rem;
+            /* background-image: url(PTI_web/multi\ color.jpg);
+            background-size: cover; */
+        }
+        .quiz{
+            font-size: 5rem;
+            font-weight: bold;
+            /* border: 2px solid palegreen; */
+            text-align: center;
+            line-height: 10rem;
+            
+        }
+        /* .image{
+            
+            border: 2px solid pink;
+            padding: 6px;
+            background-color: yellow;
+            border-radius: 50%;
+            width: 15rem;
+            height: 15rem;
+            overflow: hidden;
+            
+            
+            
+        } */
+        .image img{
+            margin: 1rem;
+            /* border: 5px solid rgb(236, 204, 17); */
+            /* padding: 5px; */
+            /* background-color: white; */
+            width: 16rem;
+            height: 16rem;
+            /* border-radius: 50%;
+            margin: center; */
+        }
+        .col2{
+            padding: 0px 2.5rem 1rem 2.5rem;
+            /* border: 2px solid blue; */
+            margin: 1.5rem;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 2rem;
+            font-size: larger;
+            align-items: flex-end;
+        }
+        .data{   
+        /* border: 2px solid pink; */
+        line-height: 2rem;
+        display: grid;
+        grid-template-columns: auto 2fr;
+
+        }
+        .item{
+            display: grid;
+            grid-template-columns: auto 5px;
+            /* border: 2px solid green; */
+        }
+        .item1{
+            /* border: 2px solid yellow; */
+            width: max-content;
+            padding-right: 5px;
+        }
+        .login{
+            /* border: 2px solid black; */
+            text-align: center;
+            height: 3rem;
+            background-color: rgb(236, 137, 90);
+            border-radius: 2rem;
+            
+        }
+        .login a{
+            /* border: 2px solid green; */
+            display: block;
+            line-height: 3rem;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1rem;
+            color: black;
+        }
+        .login:hover{
+            background-color: rgb(148, 148, 144);
+            
+        }
+      
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="col">
+            <div class="-image-profile">
+                <div class="image"><img src="PTI_web/25.png" alt=""></div>
+            </div>
+            <div class="quiz">QUIZZ</div>
+        </div>
+        <div class="col2">
+            <div class="data">
+                <!-- <ul>
+                    <li>Nama: Sepdi Zafarina Azhra</li>
+                    <li>Progdi: Teknik Informatika</li>
+                    <li>NIM: <input type="text" name="" id="" placeholder="masukkan nim"></li>
+                    <li>Jenis Kelamin: <input type="radio" name="" id=""> Laki - laki <input type="radio" name="" id="">Perempuan</li>
+                    <li>Pulau Asal:<select name="Pulau Asal" id="ops">
+                        <option value="kalimantan">kalimantan</option>
+                        <option value="Jawa">Jawa</option>
+                        <option value="Papua">Papua</option>
+                        <option value="Sumatera">Sumatera</option>
+                        <option value="Sulawesi">Sulawesi</option>
+                        <option value="Bali">Bali</option></select>
+                    </li>
+                    <li>Hobi            :   </pre><input type="checkbox" name="" id="">Nongki
+                        <input type="checkbox" name="" id="">Debat 
+                        <input type="checkbox" name="" id="">Belajar
+                        <input type="checkbox" name="" id="">Menyerah
+                    </li>
+                </ul> -->
+                <div class="item">
+                    <div class="item1">
+                        <ul>
+                            <li>Nama</li>
+                            <li>Progdi</li>
+                            <li>NIM</li>
+                            <li>Jenis Kelamin</li>
+                            <li>Pulau Asal</li>
+                            <li>Hobi</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="item2">
+                        <ul>
+                            <li>:</li>
+                            <li>:</li>
+                            <li>:</li>
+                            <li>:</li>
+                            <li>:</li>
+                            <li>:</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="val">
+                        <ul>
+                            <li>Sepdi Zafarina Azhra</li>
+                            <li>Teknik Informatika</li>
+                            <li><input type="text" name="" id="" placeholder="masukkan NIM"></li>
+                            <li><input type="radio" name="" id="">Laki - laki <input type="radio" name="" id="">Perempuan</li>
+                            <li><select name="Pulau Asal" id="ops">
+                                <option value="kalimantan">kalimantan</option>
+                                <option value="Jawa">Jawa</option>
+                                <option value="Papua">Papua</option>
+                                <option value="Sumatera">Sumatera</option>
+                                <option value="Sulawesi">Sulawesi</option>
+                                <option value="Bali">Bali</option></select></li>
+                            <li></pre><input type="checkbox" name="" id="">Nongki
+                                <input type="checkbox" name="" id="">Debat 
+                                <input type="checkbox" name="" id="">Belajar
+                                <input type="checkbox" name="" id="">Menyerah</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="login"><a href="pageDua.html">LOGIN</a></div>
+        </div>
+    </div>
+</body>
+</html>

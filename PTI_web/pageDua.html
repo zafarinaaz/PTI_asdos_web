@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap" rel="stylesheet">
+    <title>Page Dua</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            font-family: 'Barlow Semi Condensed', sans-serif;
+            /* list-style: armenian; */
+        }
+        body{
+            width: 100%;
+           
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: hsl(210, 46%, 95%);
+            /* border: 2px solid yellow; */
+            font-size: 13px;
+            display: flex;
+            align-content: center;
+            justify-items: center;
+            flex-direction: column;
+            overflow-x: hidden;
+            /* border: 2px solid blue; */
+        }
+
+        .konten1{
+            /* border: 2px solid rgb(44, 44, 35); */
+            height: 100vh;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size:50rem;
+            overflow: hidden;
+        }
+        .konten2{
+            /* border: 2px solid pink;
+             */
+            height: 100vh;
+            display: grid;
+            
+            grid-template-columns:  35rem 1fr;
+            /* justify-content: end; */
+        }
+        /* .fotoFTI{
+            position: relative;
+            
+             border: 2px solid yellowgreen;
+        } */
+        .i1{
+            height: 30rem;
+            position: relative;
+            left: 0;
+            /* border: 2px solid yellow; */
+            
+        }
+        .jadwal{
+            position: absolute;
+            top: 3rem;
+            left: 3rem;
+            bottom: 2rem;
+           
+        }
+        .i2{
+            right: 0;
+        }
+         .i2{
+            height: 30rem;
+            position: relative;
+            right: -40rem;
+            /* border: 2px solid yellow; */
+        }
+        .cerita{
+            position: absolute;
+            left: 2rem;
+            bottom:-20rem;
+            font-size: 2rem;
+            color: white;
+        }
+        .cerita1{
+            background-color:rgb(176, 199, 248);
+            line-height: 2rem;
+            font-size: large;
+            text-align: justify;
+            display: grid;
+            align-content: space-around;
+            padding-right: 3rem;
+            padding-left: 3rem;
+        }
+        
+        .footer{
+            height: 100rem;
+        }
+        /* h2{
+            position: inherit;
+            
+        } */
+        table{
+            border-collapse: collapse;
+        }
+         .head{
+            background-color: rgb(176, 199, 248);
+            text-align: center;
+        }
+         tbody{
+           
+            background-color:rgb(236, 137, 90);
+        }
+        td,tr{
+            border: 2px solid black;
+            padding: 8px 20px;
+        }
+        
+        ul li{
+            list-style:decimal;
+        }
+        .konten1, .konten2, .konten3, .konten4{
+            margin: auto;
+        }
+        .cool{
+            font-size: 3rem;
+            background-color: rgb(176, 199, 248);
+            width: 10rem;
+            margin-bottom: 2rem;
+           
+        }
+        h1{
+            transform: translateX(2.5rem);
+        }
+        a{
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+        }
+        span, .l2{
+            color: red;
+        }
+        footer{
+            border-top: 4px solid  rgb(176, 199, 248);
+            height: 15rem;
+            font-size:1rem ;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            line-height: 2rem;
+        }
+
+
+        li{
+            /* border: 2px solid blue; */
+            transform: translateX(1rem); 
+        }
+        .konten4{
+            /* border: 2px solid yellow; */
+            height: 8rem;
+            display: grid;
+            align-content: space-between;
+        }
+        .press{
+            gap: 1rem;
+            background-color:rgb(236, 137, 90);
+            border-radius: 3rem;
+            height: 3rem;
+            line-height: 3rem;
+            width: 15rem;
+            text-align: center;
+        }
+        .press a{
+            height: 3rem;
+            line-height: 3rem;
+            display: block;
+        }
+        .press:hover{
+            background-color: rgb(148, 148, 144);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="konten1">
+            <div class="fotoFTI">
+                <img class="i2" src="PTI_web/144.png" alt="">
+            </div> 
+           <div class="jadwal">
+            <div class="cool">
+                <h1>JADWAL</h1>
+                <h1>COOLYEAH</h1>
+            </div>
+            <table>
+                <thead class="head">
+                    
+                        <td>HARI</td>
+                    <td>JAM</td>
+                    <td>RUANG</td>
+                    <td>KODE</td>
+                    <td>MATAKULIAH</td>
+                    <td>PENGAJAR</td>
+                    <td>SKS B</td>
+                    <td>SKS</td>
+                    
+                    
+        
+                </thead>
+                <tr>
+                    <td>Senin</td>
+                    <td>09:00-12:00</td>
+                    <td>A106</td>
+                    <td>DX405A</td>
+                    <td>Pengantar Psikologi Umum</td>
+                    <td>Arthur Huw'</td>
+                    <td>3</td>
+                    <td>3</td>
+        
+                </tr>
+                
+                <tr>
+                    <td>Selasa</td>
+                    <td>08:00-10:00</td>
+                    <td>FTI308</td>
+                    <td>T111C</td>
+                    <td>Pengantar Teknologi Informasi</td>
+                    <td>Suprihadi</td>
+                    <td>4</td>
+                    <td>3</td>
+        
+                </tr>
+                <tr>
+                    <td>Rabu</td>
+                    <td>08:00-10:00</td>
+                    <td>F204</td>
+                    <td>TC113E</td>
+                    <td>Matematika Diskrit</td>
+                    <td>Yesika Nataliani</td>
+                    <td>4</td>
+                    <td>3</td>
+        
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>13:00-15:00</td>
+                    <td>FTI333</td>
+                    <td>TC112G</td>
+                    <td>Dasar - Dasar Pemrograman</td>
+                    <td>Nina Setiyawati</td>
+                    <td>4</td>
+                    <td>3</td>
+        
+                </tr>
+                <tr>
+                    <td>Kamis</td>
+                    <td>15:00-17:00</td>
+                    <td>FTI455</td>
+                    <td>TC112G</td>
+                    <td>Dasar - Dasar Pemrograman</td>
+                    <td>ASDOS</td>
+                    <td>4</td>
+                    <td>3</td>
+        
+                </tr>
+                <tr>
+                    <td>Jumat</td>
+                    <td>09:00-10:00</td>
+                    <td>FTI455</td>
+                    <td>T111C</td>
+                    <td>Pengantar Teknologi Informasi</td>
+                    <td>ASDOS</td>
+                    <td>4</td>
+                    <td>3</td>
+        
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>13:00-15:00</td>
+                    <td>FTI333</td>
+                    <td>TC113E</td>
+                    <td>Matematika Diskrit</td>
+                    <td>ASDOS</td>
+                    <td>4</td>
+                    <td>3</td>
+        
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>16:00-18:00</td>
+                    <td>F208</td>
+                    <td>DX709C</td>
+                    <td>Layout Design</td>
+                    <td>Anri Septiawan</td>
+                    <td>2</td>
+                    <td>2</td>
+        
+                </tr>
+            </table>
+           </div>
+        </div>
+        <div class="konten2">
+            <div class="judul">
+                <div class="fotoFTI">
+                    <img class="i1" src="PTI_web/144.1.png" alt="">
+                </div> 
+                <div class="cerita">
+                    <h2>CERITA FTI </h2>
+                    <h2>DAYS 2022</h2>
+                </div>
+            </div>
+            <div class="cerita1">
+                <p><b>Saya mengikuti FTI Days 2022 Gelombang pertama.</b> Kegiatan ini dimulai dengan TM pada tanggal 29 Agustus, 17 dan 20 September, dan <i>hari H dimulai sejak 21 hingga 23 September</i>. Berangkat pagi - pagi menuju ke FTI, membawa barang - barang yang berguna tidak berguna. Awalnya memang tidak nyaman karena belum paham situasi, lingkungan baru, temen - temen baru, tapi lama kelamaan mulai terbiasa juga. Terbisa dengan teriakan teriakan AI dan DAI yang sering marah - marah wkwk, engga deng emang logat mereka seperti itu. Satu hal yang <sup>paling menyiksa</sup>  di kegiatan ini adalah <u>sikap cinta tanah air</u> . Kita disuruh untuk tutup mata dan menunduk, tapi tidak boleh sampai tertidur. Masalahnya adalah kita udah lelah ya kan, ya udah pasti tidur lah. Paling gokil adalah ketika pensi dadakan dan ada satu kelompok yang memparodikan AI dan DAI saat cek barang dalam drama yang mereka tampilkan, seru sih itu, lawak sekaliii. Cek barang yang <s>mendebarkan</s>, b aja deng, waktu untuk makan terbatas, materi membosankan, outbond tidak sesuai yang diharapkan. Tapi ya begitulah. Saya melihat kegiatan ini adalah sesuatu yang memang seharunya dijalani seapaadanya kegiatan ini. <sub>Ada bahagia tidak bahagia</sub>, secara keseluruhan event ini sangat menyenangkan untuk dikenang meskipun <span>tidak untuk diulang.</span></p>
+            </div>
+        </div>
+        <footer>
+            <div class="konten3">
+                <h3>MAKANAN KESUKAAN</h3>
+                <ol>
+                    <li class="l1">MI KUAH</li>
+                    <li><b>SATE</b></li>
+                    <li><i>Bakso</i></li>
+                    <li><u>eskrim</u></li>
+                    <li class="l2">cupcake</li>
+                </ol>
+            </div>
+            <div class="konten4">
+                <div class="press">
+                    <a href="pageTiga.html">FOTO HAPPY KIYOWOO</a>
+                </div>
+                <div class="press">
+                    <a href="pageSatu.html">LOG OUT</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+   
+    
+</body>
+</html>
